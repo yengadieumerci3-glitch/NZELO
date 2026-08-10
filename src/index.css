@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FCFBF7;
+  --color-forest: #1B4332;
+  --color-terracotta: #C05C3E;
+  --color-charcoal: #2B2D2F;
+  --color-stone: #7A7D81;
+  --color-alabaster: #F0EDE6;
+
+  --font-serif: "Lora", Georgia, serif;
+}
 
 @layer base {
   body {
